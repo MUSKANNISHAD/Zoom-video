@@ -31,17 +31,17 @@ export default function LandingPage() {
 
 
             <div className="landingMainContainer">
-                <div>
-                    <h1><span style={{ color: "#FF9839" }}>Connect</span> with your loved Ones</h1>
+                <div className='LandingTextcontainer'>
+                    <h1><span style={{ color: "#FF9839" }}>Connect</span> with your loved Ones</h1><br></br>
 
                     <p>Cover a distance by Apna Video Call</p>
-                    <div role='button'>
+                    <div className='button' role='button'>
                         <Link to={"/auth"}>Get Started</Link>
                     </div>
                 </div>
                 <div>
 
-                    <img src="/mobile.png" alt="" />
+                    <img id="mobileImage" src="/mobile.png" alt="image " />
 
                 </div>
             </div>

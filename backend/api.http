@@ -1,12 +1,19 @@
 ### Get all users
-GET http://localhost:8000/login
-
-### Create a new user
-POST http://localhost:8000/register
+POST http://localhost:8000/api/v1/users/login
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "username": "john_doe" ,
-  "password": "password123"
+  "username": "muskan_nishad",
+  "password": "123456"
+
+}
+
+### Create a new user
+POST http://localhost:8000/api/v1/users/register
+Content-Type: application/json
+
+{
+  "name": "muskan_nishad",
+  "username": "muskan_nishad",
+  "password": "123456"
 }
